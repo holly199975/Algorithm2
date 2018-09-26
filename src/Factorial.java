@@ -1,6 +1,3 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Factorial {
@@ -13,7 +10,7 @@ public class Factorial {
 		ans=1;
 		for (i=1;i<=val;i=i+1)
 		{
-			ans=ans*i;
+			ans=ans*i;     // 1*...*(n-2)*(n-1)*n
 		} // for 結束
 		System.out.println(val+ "!="+ans);
 	}
